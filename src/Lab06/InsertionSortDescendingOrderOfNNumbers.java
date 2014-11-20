@@ -10,7 +10,7 @@ public class InsertionSortDescendingOrderOfNNumbers {
 
 	public static void main(String[] args) 
 	{	//get the number of elements
-		System.out.println("introduza o n�mero de elementos:");
+		System.out.println("introduza o numero de elementos:");
 
 		Scanner input = new Scanner (System.in);
 
@@ -19,12 +19,10 @@ public class InsertionSortDescendingOrderOfNNumbers {
 
 		System.out.println("introduza os numeros aleatoriamente:");
 
-		Scanner kb = new Scanner(System.in);
-
 		// Get the numbers from input.
 		for (int i = 0; i < n; i++)
 		{
-			numbers[i] = kb.nextInt();
+			numbers[i] = input.nextInt();
 		}
 
 		// Order the numbers in descending order.
